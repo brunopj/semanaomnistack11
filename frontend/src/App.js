@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import './global.css';
+
+import Logon from './pages/Logon';
+
+//JSX (JavaScript XML) Quando o HTML esta integrado dentro do javascript
+//Componente no REACT é uma função que retorna HTML, podendo ter 
+// funcionalidades java script e CSS.
+//Componentes sempre comecam com a primeira letra maiuscula
+
+//Live Reload = Quando o react atualiza automaticamente a alteracao de conteudo.
+
+//Propriedade tem a sintaxe parecida com atributo HTML 
+//   - Atributos são passados para compoentes, não para TAG
+//<Header title="Semano OmniStack"/>
+/*const [counter, setCounter] = useState(0);
+
+function increment() {
+  setCounter(counter + 1);
+
+}
+*/
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+   
+   return (
+    <Logon />
+      
   );
 }
 
