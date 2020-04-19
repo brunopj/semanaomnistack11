@@ -2,7 +2,7 @@ import React from 'react';
 
 import './global.css';
 
-import Logon from './pages/Logon';
+import Routes from './routes';
 
 //JSX (JavaScript XML) Quando o HTML esta integrado dentro do javascript
 //Componente no REACT é uma função que retorna HTML, podendo ter 
@@ -25,7 +25,7 @@ function App() {
 
    
    return (
-    <Logon />
+    <Routes />
       
   );
 }
