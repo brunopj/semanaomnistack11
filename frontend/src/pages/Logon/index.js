@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom';// importa o componente link, para ser usa
 
 import {FiLogIn} from 'react-icons/fi'; //importa icones pro react "utilizado pacote fi" // npm install react-icons
 
+//import api from '../../services/api';
+
 import './styles.css';
 
 import heroesImg from '../../assets/heroes.png';//importando img
